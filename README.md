@@ -2,7 +2,7 @@
 
 A modern, responsive web application that allows users to book and manage doctor appointments with an intuitive calendar interface.
 
-![Doctor Appointment Booking System](https://i.imgur.com/placeholder.jpg)
+![Doctor Appointment Booking System](https://imgur.com/SybSyMq)
 
 🔗 **Live Demo:** [https://jolly-cajeta-cf4371.netlify.app/](https://jolly-cajeta-cf4371.netlify.app/)
 
