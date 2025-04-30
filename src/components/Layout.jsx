@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Sidebar from './Sidebar';
 import { MoonIcon, SunIcon, Menu } from 'lucide-react';
+import photo from '../assets/photo.png'; 
 
 const Layout = ({ children }) => {
   const [darkMode, setDarkMode] = useState(false);
@@ -87,12 +88,12 @@ const Layout = ({ children }) => {
                   <div className="ml-3 relative">
                     <div className="flex items-center">
                       <div className="ml-3">
-                        <div className="text-base font-medium text-gray-800 dark:text-white">Dr. Jane Smith</div>
+                        <div className="text-base font-medium text-gray-800 dark:text-white">Dr. Pritha Kar</div>
                         <div className="text-sm font-medium text-gray-500 dark:text-gray-400">Family Medicine</div>
                       </div>
                       <img
                         className="h-8 w-8 rounded-full ml-2"
-                        src="https://images.pexels.com/photos/5327656/pexels-photo-5327656.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                        src={photo}
                         alt="User profile"
                       />
                     </div>
